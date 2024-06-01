@@ -1,0 +1,9 @@
+<div class="list-group">
+    <a href="{% url 'index' %}" class="list-group-item list-group-item-action ">
+        BARCHA MAQOLALAR
+    </a>
+    {% for category in categories %}
+    <a href="{% url 'category' category.id %}"
+       class="list-group-item list-group-item-action">{{category.title|upper}}</a>
+    {% endfor %}
+</div>

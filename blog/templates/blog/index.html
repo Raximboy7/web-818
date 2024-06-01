@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{title}}
+{% endblock title %}
+
+{% block header %}
+{% include 'components/_header.html' %}
+{% endblock header %}
+
+{% block main %}
+
+<br>
+<div class="container">
+    <div class="d-flex justify-content-between">
+        <div class="col-3">
+            {% include 'blog/components/_sitebar.html' %}
+        </div>
+        <br>
+        <div class="col-8">
+            <div class="row g-0">
+                {% for article in articles %}
+
+                <div class="card m-3" style="max-width: 300px;">
+
+                    <img src="{{article.photo.url}}" class="card-img-top" alt="...">
+
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{article.title|truncatewords:4}}</h5>
+                            <p class="card-text">{{article.content|truncatewords:8}}</p>
+                            <p class="card-text">{{article.created_at}}</p>
+                            <a href="{% url 'article_detail' article.id %}" class="btn btn-primary">Batafsil</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main %}
+

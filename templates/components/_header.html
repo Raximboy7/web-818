@@ -1,0 +1,45 @@
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{% url 'index' %}">News</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     {% if request.user.is_authenticated %}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Salom foydalanuvchi
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{% url 'profile' %}">Profil</a></li>
+                                <li><a class="dropdown-item" href="{% url  'add_article' %}">Maqola qo'shish</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="{% url 'logaut' %}">Chiqish</a></li>
+                            </ul>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'login' %}">Krish</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'register' %}">Ro'yxatdan o'tish</a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                    <form class="d-flex" role="search" action="{% url 'search' %}">
+                        <input class="form-control me-2" name="q" type="search" placeholder="qidirish...." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Qidirish</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>

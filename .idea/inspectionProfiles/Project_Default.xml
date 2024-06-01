@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
+      <option name="ignoredPackages">
+        <value>
+          <list size="41">
+            <item index="0" class="java.lang.String" itemvalue="django" />
+            <item index="1" class="java.lang.String" itemvalue="channels" />
+            <item index="2" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="3" class="java.lang.String" itemvalue="channels_redis" />
+            <item index="4" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="5" class="java.lang.String" itemvalue="django-crispy-forms" />
+            <item index="6" class="java.lang.String" itemvalue="Django" />
+            <item index="7" class="java.lang.String" itemvalue="asgiref" />
+            <item index="8" class="java.lang.String" itemvalue="pytz" />
+            <item index="9" class="java.lang.String" itemvalue="Pillow" />
+            <item index="10" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="11" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="12" class="java.lang.String" itemvalue="setuptools" />
+            <item index="13" class="java.lang.String" itemvalue="pyaiogram" />
+            <item index="14" class="java.lang.String" itemvalue="backports.zoneinfo" />
+            <item index="15" class="java.lang.String" itemvalue="async-timeout" />
+            <item index="16" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="17" class="java.lang.String" itemvalue="Click" />
+            <item index="18" class="java.lang.String" itemvalue="cycler" />
+            <item index="19" class="java.lang.String" itemvalue="numpy" />
+            <item index="20" class="java.lang.String" itemvalue="requests" />
+            <item index="21" class="java.lang.String" itemvalue="certifi" />
+            <item index="22" class="java.lang.String" itemvalue="azt" />
+            <item index="23" class="java.lang.String" itemvalue="urllib3" />
+            <item index="24" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="25" class="java.lang.String" itemvalue="Cython" />
+            <item index="26" class="java.lang.String" itemvalue="pymongo" />
+            <item index="27" class="java.lang.String" itemvalue="six" />
+            <item index="28" class="java.lang.String" itemvalue="pyTelegramBotAPI" />
+            <item index="29" class="java.lang.String" itemvalue="kiwisolver" />
+            <item index="30" class="java.lang.String" itemvalue="attrs" />
+            <item index="31" class="java.lang.String" itemvalue="chardet" />
+            <item index="32" class="java.lang.String" itemvalue="termcolor" />
+            <item index="33" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="34" class="java.lang.String" itemvalue="pyzt" />
+            <item index="35" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="36" class="java.lang.String" itemvalue="multidict" />
+            <item index="37" class="java.lang.String" itemvalue="yarl" />
+            <item index="38" class="java.lang.String" itemvalue="pyfiglet" />
+            <item index="39" class="java.lang.String" itemvalue="idna" />
+            <item index="40" class="java.lang.String" itemvalue="aiogram" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E231" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="telegram.InlineKeyboardMarkup" />
+          <option value="telegram.*" />
+          <option value="requests" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
