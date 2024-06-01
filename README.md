@@ -7,18 +7,26 @@
 1. <h3>Vertual muxitni yarating!</h3>
 
 
-<h2>Macbook/Lunix</h2>  `python -m venv venv`
+<h2>Macbook/Lunix</h2>  
+
+`python -m venv venv`
 
 
-<h2>Windows</h2>    `py -m venv venv`
+<h2>Windows</h2>    
+
+`py -m venv venv`
 
 
 2. <h3>Muxtni isha tushiring!</h3>
 
-<h2>Macbook/Lunix</h2> `sourse venv/bin/activate`
+<h2>Macbook/Lunix</h2> 
+
+`sourse venv/bin/activate`
 
 
-<h2>Windows</h2> `.\venv\sicripts\activate`
+<h2>Windows</h2> 
+
+`.\venv\sicripts\activate`
 
 3. <h3>Kerakli kutubxonalarni o'rnating!</h3>
 
