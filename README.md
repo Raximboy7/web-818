@@ -1,5 +1,13 @@
 # Blog Website
 
+<p align="center">
+    <img height="400" src="https://github.com/Raximboy7/web-818/blob/main/web.png">
+</p>
+
+<p align="center">
+    <img height="400" src="https://github.com/Raximboy7/web-818/blob/main/web2.png">
+</p>
+
 <h3>Bu webmaxsulot yangliklarni post shaklida saytga yuklaydi!</h3>  
 
 <h4>Dasturni ishga tushirish uchun kerakli qadamlani bajarish shart!</h4>
